@@ -10,10 +10,20 @@ GENIEReWeight_Multisigma_Tool_Config: {
 
     ################################## CCQE Parameters
 
-    MaCCQEIsShapeOnly: false
+    ZNormCCQE_central_value: 0
+    ZNormCCQE_variation_descriptor: "[-1,+1,-2,+2,-3,+3]"
 
-    MaCCQE_central_value: 0
-    MaCCQE_variation_descriptor: "[-1,+1,-2,+2,-3,+3]"
+    ZExpA1CCQE_central_value: 0
+    ZExpA1CCQE_variation_descriptor: "[-1,+1,-2,+2,-3,+3]"
+
+    ZExpA2CCQE_central_value: 0
+    ZExpA2CCQE_variation_descriptor: "[-1,+1,-2,+2,-3,+3]"
+
+    ZExpA3CCQE_central_value: 0
+    ZExpA3CCQE_variation_descriptor: "[-1,+1,-2,+2,-3,+3]"
+
+    ZExpA4CCQE_central_value: 0
+    ZExpA4CCQE_variation_descriptor: "[-1,+1,-2,+2,-3,+3]"
 
     # ReWeight to dipole vector form factor when VecFFCCQEshape = 1
     # Takes so much time
