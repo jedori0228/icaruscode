@@ -1,0 +1,7 @@
+#include "config_GENIEReWeightMultisigma_icarus_v2.fcl"
+#include "config_GENIEReWeightMultisim_icarus_v2.fcl"
+
+syst_providers: [
+GENIEReWeight_Multisigma_Tool_Config,
+GENIEReWeight_Multisim_Tool_Config
+]
